@@ -44,6 +44,7 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 321px;
 }
 
 .time {
