@@ -1,0 +1,103 @@
+body{
+    margin-top: 52px;
+    max-width: 969px;
+}
+
+header {
+    font-size: 48px;
+}
+
+.description {
+    font-size: 14px;
+    width: 592px;
+}
+
+picture {
+    margin-top: 43px;
+    align-self: center;
+}
+
+.main {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    row-gap: 169px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.ingredients-instructions {
+    max-width: 579px;
+    margin-right: 169px;
+}
+
+.conteiner {
+    top: -6px;
+}
+
+.ingredient {
+    font-size: 16px;
+}
+
+.ingredient p {
+    margin-left: 38px;
+}
+
+.time-info {
+    display: flex;
+    position: sticky;
+    margin-top: 48px;
+    top: 48px;
+    flex-direction: column;
+    gap: 43px;
+    justify-content: center;
+    width: 216px;
+    height: 367px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.time {
+    padding-left: 44px;
+}
+
+.time > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.time > div > p {
+    margin: 0px;
+}
+
+svg {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.desc {
+    font-size: 10px;
+}
+
+.duration {
+    font-size: 14px;
+}
+
+#source {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    font-size: 14px;
+}

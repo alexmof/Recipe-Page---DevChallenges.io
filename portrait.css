@@ -1,0 +1,78 @@
+body {
+    margin-top: 32px;
+    max-width: 352px;
+}
+
+header {
+    font-size: 24px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+picture {
+     margin-top: 24px;
+}
+
+.main {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.ingredient {
+    font-size: 14px;
+}
+
+.conteiner {
+    top: -6px;
+}
+
+.ingredient p {
+    margin-left: 25px;
+}
+
+.time-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.time {
+    justify-content: space-between;
+    gap: 5.50px;
+}
+
+.yields {
+    width: 352px;
+    justify-content: flex-start;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.desc {
+    font-size: 8px;
+}
+
+#yields-qtd {
+    font-size: 8px;
+}
+
+.duration {
+    font-size:10px ;
+}
+
+#source {
+    font-size: 12px;
+}
