@@ -1,6 +1,7 @@
 body{
     margin-top: 52px;
-    max-width: 969px;
+    max-width: 999px;
+    min-width: 832px;
 }
 
 header {
@@ -21,7 +22,9 @@ picture {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
-    row-gap: 169px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*row-gap: 169px;*/
 }
 
 h1 {
@@ -34,7 +37,7 @@ h2 {
 
 .ingredients-instructions {
     max-width: 579px;
-    margin-right: 169px;
+    /*margin-right: 169px;*/
 }
 
 .conteiner {
